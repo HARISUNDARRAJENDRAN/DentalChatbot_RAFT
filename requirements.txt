@@ -1,0 +1,50 @@
+# RAFT Dental Chatbot - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML Framework
+torch>=2.1.0
+transformers>=4.36.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.3
+
+# Fine-tuning
+peft>=0.7.1
+trl>=0.7.4
+
+# Embeddings and Vector Store
+sentence-transformers>=2.3.1
+faiss-cpu>=1.7.4
+
+# PDF Processing
+PyMuPDF>=1.23.8
+pytesseract>=0.3.10  # For OCR on scanned PDFs
+
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+
+# Text Processing
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+tiktoken>=0.5.2
+
+# API Clients (for Q&A generation)
+openai>=1.6.1
+groq>=0.4.0
+
+# Web Interface
+gradio>=4.44.0
+
+# Experiment Tracking
+wandb>=0.16.1
+
+# Utilities
+numpy>=1.24.3
+pandas>=2.0.3
+tqdm>=4.66.1
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Testing
+pytest>=7.4.3
